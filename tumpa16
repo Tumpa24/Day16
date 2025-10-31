@@ -1,0 +1,10 @@
+//to find the area of square
+#include<stdio.h>
+int main(){
+    int x,y,area;
+    printf("Enter two variables:");
+    scanf("%d %d",&x,&y);
+    area=x*y;
+    printf("%d",area);
+    return 0;
+}
